@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Intro from "./components/Intro"
+import Parallax from './components/Parallax'
+import Main from './components/Main'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="navbar-brand">ASHUTOSH44KS</div>
+      <div id="navbar-toggle">Menu</div>
+      <Intro/>
+      <Parallax tag="pic-1"/>
+      <Main/>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempore provident nam. Velit quae temporibus libero rerum odio in a, accusantium ex illum, ducimus debitis sunt quia ipsa harum nostrum.
     </div>
   );
 }

@@ -1,9 +1,9 @@
-import React from "react";
 
-const Parallax = ({tag}) => {
+
+const Parallax = ({type, tag, value}) => {
   return (
     <div>
-      <div className="parallax-img" id={tag}></div>
+      <div className={type} id={tag}>{value}</div>
     </div>
   );
 };

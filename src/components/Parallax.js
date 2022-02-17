@@ -1,9 +1,9 @@
 
 
-const Parallax = ({type, tag, value}) => {
+const Parallax = ({type, tag}) => {
   return (
     <div>
-      <div className={type} id={tag}>{value}</div>
+      <div className={type} id={tag}></div>
     </div>
   );
 };

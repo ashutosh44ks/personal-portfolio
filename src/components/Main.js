@@ -20,11 +20,13 @@ const Main = () => {
               development of the organization.
             </div>
           </div>
-          <Parallax
-            type="parallax-text"
-            tag="ptext-1"
-            value="Name : Ashutosh Kumar Singh<br/>Contact No. : +918171019296, +917906188911<br/> Email Address : ashutosh44ks@gmail.com<br/> GitHub : ashutosh44ks"
-          />
+          <div id="sidetext-1">
+            Name : Ashutosh Kumar Singh
+            <br />
+            Contact No. : +918171019296, +917906188911
+            <br /> Email Address : ashutosh44ks@gmail.com
+            <br /> GitHub : ashutosh44ks
+          </div>
         </div>
       </section>
       <section id="sec-B">

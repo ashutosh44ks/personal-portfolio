@@ -1,0 +1,75 @@
+/* Header */
+#navbar-container {
+  position: fixed;
+  height: 2em;
+  width: 100vw;
+  background-color: white;
+  z-index: 100;
+}
+#navbar-brand {
+  padding-top: 0.5em;
+  font-weight: bold;
+  color: #1c1b20;
+}
+
+/* SideBar */
+#navbar-toggle {
+  position: fixed;
+  top: 50%;
+  left: 2%;
+  transform: rotate(-90deg);
+  cursor: pointer;
+  padding: 1em;
+}
+#sidebar-container {
+  position: fixed;
+  height: 100vh;
+  width: 2em;
+  background-color: white;
+  z-index: 99;
+  left: 0;
+  transition: width 0.5s;
+}
+#sidebar-container:hover {
+  width: 5em;
+}
+#navbar-menu {
+  position: relative;
+  top: 5em;
+  left: 7em;
+}
+#navbar-list {
+  list-style: none;
+  line-height: 3;
+}
+
+/* Intro */
+#intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 88, 81, 1) 50%,
+    rgba(248, 248, 248, 1) 50%
+  );
+}
+#intro-text {
+  font-family: "Oswald", sans-serif;
+  color: #1c1b20;
+  font-size: 10rem;
+  word-wrap: break-word;
+  width: 2.1em;
+  line-height: 1;
+}
+
+/* Footer */
+#foot-container {
+  position: fixed;
+  height: 2em;
+  width: 100vw;
+  background-color: white;
+  z-index: 100;
+  bottom: 0;
+}

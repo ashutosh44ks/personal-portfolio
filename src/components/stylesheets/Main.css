@@ -1,0 +1,68 @@
+#pic-1 {
+  background-image: url("../../media/home-1.jpg");
+  height: 100vh;
+}
+#sec-A #flex {
+  display: flex;
+  justify-content: space-between;
+}
+#main {
+  background-color: #f8f8f8;
+  height: 400vh;
+  padding: 10vw 0 0 12vw;
+}
+#heading-1 {
+  color: #ff5851;
+  display: inline-block;
+  width: 4em;
+  padding: 0 0 1em 0;
+  word-wrap: break-word;
+  line-height: 1;
+}
+#subheading-1 {
+  width: 10em;
+  word-wrap: break-word;
+  line-height: 1;
+  color: #1c1b20;
+}
+#text-1 {
+  padding: 3em 0;
+  color: grey;
+  width: 18em;
+  word-wrap: break-word;
+  line-height: 1.2;
+}
+#sidetext-1 {
+  position: relative;
+  top: -10em;
+  width: 30em;
+  height: 92%;
+  background-color: #1c1b20;
+  color: white;
+  padding: 3em;
+  line-height: 3;
+  display: flex;
+  align-items: center;
+}
+#sec-B {
+  margin: 15em 0;
+}
+#sec-B #flex {
+  display: flex;
+  justify-content: flex-start;
+}
+#heading-2 {
+  color: #1c1b20;
+  display: inline-block;
+  width: 6em;
+  padding: 0 0 1em 0;
+  word-wrap: break-word;
+  line-height: 1;
+}
+#pic-2 {
+  background-image: url("../../media/home-2.jpg");
+  width: 32em;
+  height: 18em;
+  position: relative;
+  left: -12vw;
+}

@@ -27,16 +27,16 @@ const Sidebar = () => {
       <div id="navbar-menu" className="hide">
         <ul id="navbar-list">
           <li className="med-text">
-            <a className="link" href="#sec-A">Career Objective</a>
+            <a className="link side-menu-links" href="#sec-A">Career Objective</a>
           </li>
           <li className="med-text">
-            <a className="link" href="#sec-B">Educational Qualifications</a>
+            <a className="link side-menu-links" href="#sec-B">Educational Qualifications</a>
           </li>
           <li className="med-text">
-            <a className="link" href="#sec-C">Technical Skills</a>
+            <a className="link side-menu-links" href="#sec-C">Technical Skills</a>
           </li>
           <li className="med-text">
-            <a className="link" href="#sec-D">Projects</a>
+            <a className="link side-menu-links" href="#sec-D">Projects</a>
           </li>
         </ul>
       </div>

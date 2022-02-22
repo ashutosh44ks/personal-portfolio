@@ -8,7 +8,9 @@
 }
 #main {
   background-color: #f8f8f8;
-  height: 400vh;
+  height: 800vh;
+}
+.main-pad {
   padding: 10vw 0 0 12vw;
 }
 #heading-1 {
@@ -65,4 +67,25 @@
   height: 18em;
   position: relative;
   left: -12vw;
+  background-position: center;
+}
+
+#pic-3 {
+  background-image: url("../../media/home-1.jpg");
+  height: 60vh;
+  padding: 0 !important;
+}
+#heading-3 {
+  position: relative;
+  top: 0.4em;
+  color: #414a6b;
+  width: 4em;
+  word-wrap: break-word;
+  line-height: 1;
+}
+
+#Cflex {
+  display: flex;
+  justify-content: space-around;
+  padding: 8vw 0 0 5vw;
 }

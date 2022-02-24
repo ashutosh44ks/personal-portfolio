@@ -2,18 +2,20 @@
   background-image: url("../../media/home-1.jpg");
   height: 100vh;
 }
-#sec-A #flex {
-  display: flex;
-  justify-content: space-between;
-}
 #main {
   background-color: #f8f8f8;
-  height: 800vh;
+  height: 950vh;
 }
 .main-pad {
   padding: 10vw 0 0 12vw;
 }
-#heading-1 {
+
+/*About*/
+#about #flex {
+  display: flex;
+  justify-content: space-between;
+}
+#heading-about {
   color: #ff5851;
   display: inline-block;
   width: 4em;
@@ -21,20 +23,20 @@
   word-wrap: break-word;
   line-height: 1;
 }
-#subheading-1 {
+#subheading-about {
   width: 10em;
   word-wrap: break-word;
-  line-height: 1;
+  line-height: 1.1;
   color: #1c1b20;
 }
-#text-1 {
+#text-about {
   padding: 3em 0;
   color: grey;
   width: 18em;
   word-wrap: break-word;
   line-height: 1.2;
 }
-#sidetext-1 {
+#sidetext-about {
   position: relative;
   top: -10em;
   width: 30em;
@@ -46,36 +48,14 @@
   display: flex;
   align-items: center;
 }
-#sec-B {
-  margin: 15em 0;
-}
-#sec-B #flex {
-  display: flex;
-  justify-content: flex-start;
-}
-#heading-2 {
-  color: #1c1b20;
-  display: inline-block;
-  width: 6em;
-  padding: 0 0 1em 0;
-  word-wrap: break-word;
-  line-height: 1;
-}
-#pic-2 {
-  background-image: url("../../media/home-2.jpg");
-  width: 32em;
-  height: 18em;
-  position: relative;
-  left: -12vw;
-  background-position: center;
-}
 
-#pic-3 {
+/* Skills */
+#pic-skills {
   background-image: url("../../media/home-1.jpg");
   height: 60vh;
   padding: 0 !important;
 }
-#heading-3 {
+#heading-skills {
   position: relative;
   top: 0.4em;
   color: #414a6b;
@@ -83,9 +63,69 @@
   word-wrap: break-word;
   line-height: 1;
 }
-
-#Cflex {
+#skills-text {
   display: flex;
+  padding: 8vw 5vw 0 5vw;
+  justify-content: space-evenly;
+}
+#skills-text > .med-text {
+  word-wrap: break-word;
+  width: 13em;
+}
+
+/* Projects */
+#projects {
+  margin: 6em 0;
+}
+#heading-projects {
+  color: #1c1b20;
+  display: inline-block;
+  width: 6em;
+  padding: 0 0 1em 0;
+  word-wrap: break-word;
+  line-height: 1;
+}
+.project {
+  margin-bottom: 5em;
+  display: flex;
+  align-items: center;
   justify-content: space-around;
-  padding: 8vw 0 0 5vw;
+}
+.project-text {
+  width: 40vw;
+  word-wrap: break-word;
+}
+#game-of-21 {
+  background-color: white;
+  margin: auto;
+  box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 20%);
+  border: none;
+  cursor: pointer;
+  border-radius: 1em;
+  padding: 5em 2.8em;
+}
+.game-bg {
+  background: url("../../media/project-1.png") center;
+  background-size: 13em;
+  background-repeat: no-repeat;
+  color: #f8f8f8;
+}
+#clone-torrent {
+  background: url("../../media/project-2.gif");
+  height: 400px;
+  width: 275px;
+}
+
+/*Contact*/
+#pic-contact {
+  background-image: url("../../media/home-2.jpg");
+  width: 32em;
+  height: 18em;
+  position: relative;
+  left: -12vw;
+  background-position: center;
+}
+#contact #flex {
+  display: flex;
+  justify-content: flex-start;
 }

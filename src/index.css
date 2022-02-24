@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* General */
 .lrg-text {
   font-family: "Oswald", sans-serif;
@@ -23,6 +27,18 @@
 }
 .theme-1 {
   background: #ff5851 !important;
+}
+.btn {
+  cursor: pointer;
+  padding: 0.5em;
+  margin-right: 1em;
+  background-color: #f8f8f8;
+  border: solid #ff5851 2px;
+  border-radius: 3px;
+  transition: background-color 0.5s;
+}
+.btn:hover {
+  background-color: #ff5851;
 }
 
 /* App */

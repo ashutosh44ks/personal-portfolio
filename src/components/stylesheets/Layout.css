@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy');
+
 /* Header */
 #navbar-container {
   position: fixed;
@@ -14,7 +16,7 @@
   transition: 0.5s;
 }
 #navbar-brand.with-sidebar {
-  transform: translate(7em, 2em);
+  transform: translate(10em, 3em);
 }
 
 /* SideBar */
@@ -45,9 +47,11 @@
 }
 #navbar-list {
   list-style: none;
-  line-height: 3;
+  line-height: 2;
+  padding-left: 5em;
 }
 .side-menu-links {
+  font-family: 'Gilroy', sans-serif;
   transition: background-color 0.5s;
 }
 .side-menu-links:hover {
@@ -81,12 +85,15 @@
   );
 }
 #intro-text {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Gilroy', sans-serif;
   color: #1c1b20;
   font-size: 10rem;
   word-wrap: break-word;
-  width: 2.1em;
+  width: 2.7em;
   line-height: 1;
+}
+#intro-text > span {
+  color: #ff5851;
 }
 
 /* Footer */

@@ -5,14 +5,15 @@ const About = () => {
   return (
     <section className="main-pad" id="about">
       <div className="lrg-text" id="heading-about">
-        About Me.
+        About Me<span className="span-dot">.</span>
       </div>
-      <div id="flex">
+      <div id="flex" className="about-myself">
         <div>
           <div className="med-text" id="subheading-about">
             <q>
-              The important thing is not to stop questioning. Curiosity has its
-              own reason for existing.
+              The important thing is not to stop questioning.{" "}
+              <span className="span-font">Curiosity</span> has its own reason
+              for existing.
             </q>
             <address>- Albert Einstein</address>
           </div>
@@ -23,37 +24,50 @@ const About = () => {
           </div>
         </div>
         <div id="sidetext-about">
-          <div style={{ float: "left" }}>
-            Name :
-            <br />
-            Age :
-            <br />
-            Gender :
-            <br /> Email Address :
-            <br /> GitHub :
-            <br /> LinkedIn :
+          <div style={{ display: "inline-block" }}>
+            <div>Name :</div>
+
+            <div>Age :</div>
+
+            <div>Gender :</div>
+            <div>Email Address :</div>
+            <div>GitHub :</div>
+            <div>LinkedIn :</div>
           </div>
-          <div style={{ float: "right", marginLeft: "2em" }}>
-            Ashutosh Kumar Singh
-            <br />
-            {currYear - 2000}
-            <br />
-            Male
-            <br />
-            <a className="link" href="mailto:ashutosh44ks@gmail.com">
-              ashutosh44ks@gmail.com
-            </a>
-            <br />
-            <a className="link" href="https://github.com/ashutosh44ks">
-              github.com/ashutosh44ks
-            </a>
-            <br />
-            <a
-              className="link"
-              href="https://www.linkedin.com/in/ashutosh44ks/"
-            >
-              linkedin.com/ashutosh44ks
-            </a>
+          <div style={{ display: "inline-block", marginLeft: "2em" }}>
+            <div>Ashutosh Kumar Singh</div>
+
+            <div>{currYear - 2000}</div>
+
+            <div>Male</div>
+
+            <div>
+              <a className="link" href="mailto:ashutosh44ks@gmail.com">
+                ashutosh44ks@gmail.com
+              </a>
+            </div>
+
+            <div>
+              <a
+                className="link"
+                href="https://github.com/ashutosh44ks"
+                target="_blank"
+                rel="noreferrer"
+              >
+                github.com/ashutosh44ks
+              </a>
+            </div>
+
+            <div>
+              <a
+                className="link"
+                href="https://www.linkedin.com/in/ashutosh44ks/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                linkedin.com/ashutosh44ks
+              </a>
+            </div>
           </div>
         </div>
       </div>

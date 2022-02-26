@@ -16,11 +16,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Email Sent Successfully")
+          alert("Email Sent Successfully");
         },
         (error) => {
           console.log(error.text);
-          alert("Email Sent Unsuccessful!")
+          alert("Email Sent Unsuccessful!");
         }
       );
     e.target.reset();
@@ -28,13 +28,13 @@ const Contact = () => {
   return (
     <section className="main-pad" id="contact">
       <div className="lrg-text" id="heading-contact">
-        Contact Me.
+        Contact Me<span className="span-dot">.</span>
       </div>
       <div id="flex">
         <Parallax type="parallax-img" tag="pic-contact" />
-        <div>
-          <div className="sml-text" style={{ color: "grey" }}>
-            This form is powered by EmailJS
+        <div id="form-container">
+          <div className="sml-text">
+            This form is powered by <span className="span-font">EmailJS</span>
           </div>
           <form ref={form} onSubmit={sendEmail}>
             <div className="form-group">

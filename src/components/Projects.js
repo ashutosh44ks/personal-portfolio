@@ -13,11 +13,11 @@ const Projects = () => {
   return (
     <section className="main-pad" id="projects">
       <div className="lrg-text" id="heading-projects">
-        Projects.
+        Projects<span className="span-dot">.</span>
       </div>
       <div className="project">
         <div className="project-text">
-          <div className="med-text">Game of 21</div>
+          <div className="med-text">Game of <span className="span-font"> 21</span></div>
           <ul className="sml-text">
             <li>
               Description - We've a deck of 21 cards from 1 to 21. You play
@@ -48,7 +48,7 @@ const Projects = () => {
       <div className="project">
         <div id="clone-torrent"></div>
         <div className="project-text">
-          <div className="med-text">Website Clone - 1337x Torrents</div>
+          <div className="med-text">Website Clone - <span className="span-font"> 1337x Torrents</span></div>
           <ul className="sml-text">
             <li>
               A popular torrent site commonly used for searching and downloading

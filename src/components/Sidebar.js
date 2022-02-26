@@ -5,7 +5,9 @@ const Sidebar = () => {
   useEffect(() => {
     const sideBtn = document.querySelector("#navbar-toggle");
     const sideLinks = document.querySelectorAll(".side-menu-links");
-    sideLinks.forEach(sideLink => sideLink.addEventListener("click", sideToggler));
+    sideLinks.forEach((sideLink) =>
+      sideLink.addEventListener("click", sideToggler)
+    );
     sideBtn.addEventListener("click", sideToggler);
   });
 
@@ -35,22 +37,32 @@ const Sidebar = () => {
         <ul id="navbar-list">
           <li className="med-text">
             <a className="link side-menu-links" href="#about">
-              About Me
+              About Me.
             </a>
           </li>
           <li className="med-text">
             <a className="link side-menu-links" href="#skills">
-              Technical Skills
+              Technical Skills.
             </a>
           </li>
           <li className="med-text">
             <a className="link side-menu-links" href="#projects">
-              Projects
+              Projects.
             </a>
           </li>
           <li className="med-text">
             <a className="link side-menu-links" href="#contact">
-              Contact
+              Contact.
+            </a>
+          </li>
+          <li className="med-text">
+            <a
+              className="link side-menu-links"
+              href="https://drive.google.com/file/d/1rri8vp3pEZH6qAGvs_THgvqvmk_KMv1L/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume.
             </a>
           </li>
         </ul>

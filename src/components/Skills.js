@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <div className="lrg-text main-pad" id="heading-skills">
-        Technical Skills.
+        Technical Skills<span className="span-dot">.</span>
       </div>
       <Parallax type="parallax-img" tag="pic-skills" />
       <div id="skills-text">
@@ -12,13 +12,26 @@ const Skills = () => {
           Front-End
           <div className="sml-text">
             <ul>
-              <li>Good at React JS</li>
-              <li>Have exposure with React State Management Library of Redux </li>
               <li>
-              Used occasionally React UI frameworks such as Material UI and Grommet
+                Good at <span className="span-font">React JS</span>
               </li>
-              <li>Knowledgeable in HTML, CSS, and JavaScript</li>
-              <li>Experienced in Bootstrap and jQuery</li>
+              <li>
+                Have exposure with React State Management Library of
+                <span className="span-font"> Redux</span>
+              </li>
+              <li>
+                Used occasionally React UI frameworks such as
+                <span className="span-font"> Material UI</span> and
+                <span className="span-font"> Grommet</span>
+              </li>
+              <li>
+                Knowledgeable in <span className="span-font">HTML, CSS,</span>
+                and <span className="span-font">JavaScript</span>
+              </li>
+              <li>
+                Experienced in <span className="span-font">Bootstrap</span> and
+                <span className="span-font"> jQuery</span>
+              </li>
             </ul>
           </div>
         </div>
@@ -27,17 +40,16 @@ const Skills = () => {
           <div className="sml-text">
             <ul>
               <li>
-                Familiar in programming languages such as C, C++, Java, and
-                Python
+                Familiar in programming languages such as <span className="span-font">C, C++, Java,</span> and 
+                <span className="span-font"> Python</span>
               </li>
-              <li>Knowledgeable in core subjects of CSE</li>
+              <li>Knowledgeable in core subjects of <span className="span-font">CSE</span></li>
               <li>Good Communication and Interpersonal Skills</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-    
   );
 };
 

@@ -7,6 +7,7 @@ const Layout = () => {
     <>
       <Header />
       <Sidebar />
+      <div id="right-sidebar"></div>
       <Footer />
     </>
   );

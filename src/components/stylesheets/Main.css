@@ -4,7 +4,7 @@
 }
 #main {
   background-color: #f8f8f8;
-  height: 950vh;
+  height: 650vh;
 }
 .main-pad {
   padding: 10vw 0 0 12vw;
@@ -96,7 +96,7 @@
   word-wrap: break-word;
 }
 #game-of-21 {
-  background-color: white;
+  background-color: yellow;
   margin: auto;
   box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 20%);
   border: none;
@@ -117,8 +117,11 @@
 }
 
 /*Contact*/
+#heading-contact {
+  padding-bottom: 0.5em;
+}
 #pic-contact {
-  background-image: url("../../media/home-2.jpg");
+  background-image: url("../../media/contact.jpg");
   width: 32em;
   height: 18em;
   position: relative;
@@ -128,4 +131,30 @@
 #contact #flex {
   display: flex;
   justify-content: flex-start;
+}
+form {
+  padding: 1em 0;
+}
+.form-input {
+  padding: 0.5em 0.75em;
+  margin: 0.5em 0;
+  width: 30vw;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  background-color: #f8f8f8;
+}
+textarea.form-input {
+  height: 15vh;
+  resize: none;
+}
+.form-input:focus {
+  background-color: white;
+  outline: none;
+  font-family: inherit;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
 }

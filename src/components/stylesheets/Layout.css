@@ -10,6 +10,11 @@
   padding-top: 0.5em;
   font-weight: bold;
   color: #1c1b20;
+  cursor: default;
+  transition: 0.5s;
+}
+#navbar-brand.with-sidebar {
+  transform: translate(7em, 2em);
 }
 
 /* SideBar */
@@ -47,6 +52,20 @@
 }
 .side-menu-links:hover {
   background-color: rgba(255, 88, 81, 1);
+}
+#right-sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 2em;
+  background-color: white;
+  right: 0;
+  transition: width 0.5s;
+  z-index: 1;
+}
+#right-sidebar.with-sidebar {
+  width: 20em;
+  background-color: rgba(255, 88, 81, 1);
+  transform: translateX(-2em);
 }
 
 /* Intro */

@@ -12,13 +12,13 @@ const Skills = () => {
           Front-End
           <div className="sml-text">
             <ul>
-              <li>Good in React JS</li>
-              <li>Familiar with React State Management Library of Redux </li>
+              <li>Good at React JS</li>
+              <li>Have exposure with React State Management Library of Redux </li>
               <li>
-                Fairly Familiar with React UI frameworks such as Material UI and Grommet
+              Used occasionally React UI frameworks such as Material UI and Grommet
               </li>
               <li>Knowledgeable in HTML, CSS, and JavaScript</li>
-              <li>Experienced with Bootstrap and jQuery</li>
+              <li>Experienced in Bootstrap and jQuery</li>
             </ul>
           </div>
         </div>
@@ -27,7 +27,7 @@ const Skills = () => {
           <div className="sml-text">
             <ul>
               <li>
-                Familiar with programming languages like C, C++, Java, and
+                Familiar in programming languages such as C, C++, Java, and
                 Python
               </li>
               <li>Knowledgeable in core subjects of CSE</li>

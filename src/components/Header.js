@@ -1,9 +1,10 @@
 import React from "react";
 
 const Header = () => {
+  const brandName="<ASHUTOSH44KS/>";
   return (
     <div id="navbar-container">
-      <div id="navbar-brand">ASHUTOSH44KS</div>
+      <div id="navbar-brand">{brandName}</div>
     </div>
   );
 };

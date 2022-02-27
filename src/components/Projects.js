@@ -32,11 +32,11 @@ const Projects = () => {
           </ul>
           <div className="btn-group">
             <Button
-              name="Go To Code ->"
+              name="Go To Code"
               site="https://github.com/ashutosh44ks/game-of-21"
             />
             <Button
-              name="See Live Project ->"
+              name="See Live Project"
               site="https://ashutosh44ks.github.io/game-of-21/"
             />
           </div>
@@ -62,11 +62,11 @@ const Projects = () => {
           </ul>
           <div className="btn-group">
             <Button
-              name="Go To Code ->"
+              name="Go To Code"
               site="https://github.com/ashutosh44ks/Recreation-of-1337x-TorrentSite"
             />
             <Button
-              name="See Live Project ->"
+              name="See Live Project"
               site="https://ashutosh44ks.github.io/Recreation-of-1337x-TorrentSite/"
             />
           </div>

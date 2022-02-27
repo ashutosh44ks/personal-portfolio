@@ -1,22 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap");
 
 #pic-1 {
-  background-image: url("../../media/home-1.jpg");
+  background-image: url("../../media/home.jpg");
   height: 100vh;
 }
 #main {
   background-color: #f8f8f8;
-  height: 650vh;
+  height: 580vh;
 }
 
 .main-pad {
-  padding: 10vw 0 0 12vw;
+  padding: 0 0 0 12vw;
 }
 .span-font {
   font-family: "Libre Baskerville", serif;
 }
 .span-dot {
   font-family: "Gilroy", sans-serif;
+}
+section {
+  padding-top: 5em !important;
 }
 
 /*About*/
@@ -44,29 +47,40 @@
   word-wrap: break-word;
   line-height: 1.2;
 }
+.profile-pic {
+  height: 12em;
+  width: 12em;
+  background: url("../../media/profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: solid white 0.5em;
+}
+#pp-1 {
+  margin: 2em auto;
+}
+#pp-2 {
+  display: none;
+  margin: 0 auto;
+}
 #sidetext-about {
-  position: relative;
-  top: -10em;
   width: 30em;
-  height: 92%;
   background-color: #1c1b20;
   color: white;
   padding: 3em;
   line-height: 3;
-  display: flex;
-  align-items: center;
 }
 
 /* Skills */
 #pic-skills {
-  background-image: url("../../media/home-1.jpg");
+  background-image: url("../../media/skills.png");
   height: 60vh;
   padding: 0 !important;
 }
 #heading-skills {
   position: relative;
   top: 0.4em;
-  color: #414a6b;
+  color: #1c1b20;
   width: 4em;
   word-wrap: break-word;
   line-height: 1;
@@ -82,9 +96,6 @@
 }
 
 /* Projects */
-#projects {
-  margin: 6em 0;
-}
 #heading-projects {
   color: #1c1b20;
   display: inline-block;
@@ -94,7 +105,6 @@
   line-height: 1;
 }
 .project {
-  margin-bottom: 5em;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -129,6 +139,7 @@
 /*Contact*/
 #heading-contact {
   padding-bottom: 0.5em;
+  color: #414a6b;
 }
 #pic-contact {
   background-image: url("../../media/contact.jpg");
@@ -179,7 +190,16 @@ textarea.form-input {
     display: flex;
     justify-content: space-evenly;
   }
+  #pp-1 {
+    display: none;
+  }
+  #pp-2 {
+    display: block;
+  }
+  #side-about {
+    display: flex;
+  }
   #main {
-    height: 700vh;
+    height: 650vh;
   }
 }

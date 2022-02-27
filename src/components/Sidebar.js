@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
+import { HiMenuAlt3 } from "react-icons/hi";
 
 const Sidebar = () => {
-  const [toggle, setToggle] = useState("Menu");
+  const [toggle, setToggle] = useState("MENU");
   useEffect(() => {
     const sideBtn = document.querySelector("#navbar-toggle");
     const sideLinks = document.querySelectorAll(".side-menu-links");
@@ -16,7 +17,7 @@ const Sidebar = () => {
     const sideMenu = document.querySelector("#navbar-menu");
     const rightSidebar = document.querySelector("#right-sidebar");
     const navbarBrand = document.querySelector("#navbar-brand");
-    if (toggle === "Menu") {
+    if (toggle === "MENU") {
       sideBar.style.width = "80vw";
       navbarBrand.classList.add("with-sidebar");
       sideMenu.classList.remove("hide");
@@ -27,12 +28,15 @@ const Sidebar = () => {
       navbarBrand.classList.remove("with-sidebar");
       sideMenu.classList.add("hide");
       rightSidebar.classList.remove("with-sidebar");
-      setToggle("Menu");
+      setToggle("MENU");
     }
   }
   return (
     <div id="sidebar-container">
-      <div id="navbar-toggle">{toggle}</div>
+      <div id="navbar-toggle">
+        <HiMenuAlt3 />
+        {toggle}
+      </div>
       <div id="navbar-menu" className="hide">
         <ul id="navbar-list">
           <li className="med-text">

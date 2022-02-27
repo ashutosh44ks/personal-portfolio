@@ -1,13 +1,14 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import Sidebar from "./Sidebar";
+import RtSidebar from "./RtSidebar";
 
 const Layout = () => {
   return (
     <>
       <Header />
       <Sidebar />
-      <div id="right-sidebar"></div>
+      <RtSidebar />
       <Footer />
     </>
   );

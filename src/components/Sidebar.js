@@ -19,8 +19,7 @@ const Sidebar = () => {
     const navbarBrand = document.querySelector("#navbar-brand");
     if (toggle === "MENU") {
       sideBar.classList.remove("sidebar-h"); 
-      sideBar.classList.add("sidebar-x");     
-      // sideBar.style.width = "80vw";
+      sideBar.classList.add("sidebar-x");
       navbarBrand.classList.add("with-sidebar");
       sideMenu.classList.remove("hide");
       rightSidebar.classList.add("with-sidebar");
@@ -28,7 +27,6 @@ const Sidebar = () => {
     } else if (toggle === "X") {
       sideBar.classList.add("sidebar-h");
       sideBar.classList.remove("sidebar-x"); 
-      // sideBar.style.width = "2em";
       navbarBrand.classList.remove("with-sidebar");
       sideMenu.classList.add("hide");
       rightSidebar.classList.remove("with-sidebar");

@@ -91,6 +91,7 @@
   cursor: pointer;
   padding: 1em;
   font-size: 0.7em;
+  z-index: 1;
 }
 #social-menu svg {
   transform: rotate(90deg);

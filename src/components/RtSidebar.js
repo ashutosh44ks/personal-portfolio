@@ -2,7 +2,8 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const RtSidebar = () => {
   return (
-    <div id="right-sidebar">
+    <>
+      <div id="right-sidebar"></div>
       <div id="social-menu">
         <a className="social-link" href="https://github.com/ashutosh44ks">
           <AiFillLinkedin />
@@ -14,7 +15,7 @@ const RtSidebar = () => {
           <AiFillGithub />
         </a>
       </div>
-    </div>
+    </>
   );
 };
 

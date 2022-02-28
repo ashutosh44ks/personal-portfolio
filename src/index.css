@@ -1,7 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
+@font-face {
+  font-family:"Oswald-Medium";
+  src: url("./components/stylesheets/Fonts/Oswald-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family:"Lato";
+  src: url("./components/stylesheets/Fonts/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family:"Ubuntu";
+  src: url("./components/stylesheets/Fonts/Ubuntu-Regular.ttf") format("truetype");
+}
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -9,12 +17,12 @@ html {
 
 /* General */
 .lrg-text {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald-Medium", sans-serif;
   font-size: 6rem;
   color: #1c1b20;
 }
 .med-text {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald-Medium", sans-serif;
   font-size: 2rem;
   color: #1c1b20;
 }

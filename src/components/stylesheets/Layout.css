@@ -1,4 +1,7 @@
-@import url("http://fonts.cdnfonts.com/css/gilroy");
+@font-face {
+  font-family:"Gilroy";
+  src: url("./Fonts/GilroyHeavy.ttf") format("truetype");
+}
 
 /* Header */
 #navbar-container {

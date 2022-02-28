@@ -37,7 +37,7 @@
   transform: rotate(90deg);
   font-size: 2em;
 }
-#sidebar-container {
+.sidebar-container {
   position: fixed;
   height: 100vh;
   width: 2em;
@@ -46,8 +46,11 @@
   left: 0;
   transition: width 0.5s;
 }
-#sidebar-container:hover {
+.sidebar-h:hover {
   width: 5em;
+}
+.sidebar-x {
+  width: 80vw;
 }
 #navbar-menu {
   position: relative;

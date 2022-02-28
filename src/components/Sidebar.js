@@ -13,18 +13,22 @@ const Sidebar = () => {
   });
 
   function sideToggler() {
-    const sideBar = document.querySelector("#sidebar-container");
+    const sideBar = document.querySelector(".sidebar-container");
     const sideMenu = document.querySelector("#navbar-menu");
     const rightSidebar = document.querySelector("#right-sidebar");
     const navbarBrand = document.querySelector("#navbar-brand");
     if (toggle === "MENU") {
-      sideBar.style.width = "80vw";
+      sideBar.classList.remove("sidebar-h"); 
+      sideBar.classList.add("sidebar-x");     
+      // sideBar.style.width = "80vw";
       navbarBrand.classList.add("with-sidebar");
       sideMenu.classList.remove("hide");
       rightSidebar.classList.add("with-sidebar");
       setToggle("X");
     } else if (toggle === "X") {
-      sideBar.style.width = "2em";
+      sideBar.classList.add("sidebar-h");
+      sideBar.classList.remove("sidebar-x"); 
+      // sideBar.style.width = "2em";
       navbarBrand.classList.remove("with-sidebar");
       sideMenu.classList.add("hide");
       rightSidebar.classList.remove("with-sidebar");
@@ -32,7 +36,7 @@ const Sidebar = () => {
     }
   }
   return (
-    <div id="sidebar-container">
+    <div className="sidebar-container sidebar-h">
       <div id="navbar-toggle">
         <HiMenuAlt3 />
         {toggle}

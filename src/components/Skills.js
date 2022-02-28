@@ -16,7 +16,7 @@ const Skills = () => {
                 Good at <span className="span-font">React JS</span>
               </li>
               <li>
-                Have exposure with React State Management Library of
+                Have exposure with React State Management Library
                 <span className="span-font"> Redux</span>
               </li>
               <li>
@@ -24,6 +24,7 @@ const Skills = () => {
                 <span className="span-font"> Material UI</span> and
                 <span className="span-font"> Grommet</span>
               </li>
+              <li>Have worked with <span className="span-font"> React Router</span></li>
               <li>
                 Knowledgeable in <span className="span-font">HTML, CSS,</span>
                 and <span className="span-font">JavaScript</span>
@@ -40,7 +41,7 @@ const Skills = () => {
           <div className="sml-text">
             <ul>
               <li>
-                Familiar in programming languages such as <span className="span-font">C, C++, Java,</span> and 
+                Familiar with programming languages such as <span className="span-font">C, C++, Java,</span> and 
                 <span className="span-font"> Python</span>
               </li>
               <li>Knowledgeable in core subjects of <span className="span-font">CSE</span></li>

@@ -30,6 +30,9 @@ html {
   text-decoration: none;
   color: inherit;
 }
+.btn-group {
+  margin-top: 0.5em;
+}
 .btn {
   cursor: pointer;
   padding: 0.5em 0.5em 0.2em;

@@ -1,4 +1,4 @@
-
+import Button from "./Button";
 
 const About = () => {
   const currYear = new Date().getFullYear();
@@ -25,6 +25,12 @@ const About = () => {
             I am a passionate web developer looking for an internship that helps
             me improve on my current skills and provide me an environment from
             where I can develop both as a person and a professional.
+            <div className="btn-group">
+              <Button
+                name="Resume"
+                site="https://drive.google.com/file/d/1rri8vp3pEZH6qAGvs_THgvqvmk_KMv1L/view?usp=sharing"
+              />
+            </div>
           </div>
         </div>
         <div>

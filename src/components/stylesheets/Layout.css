@@ -15,6 +15,13 @@
   cursor: default;
   transition: 0.5s;
 }
+#navbar-date {
+  font-weight: bold;
+  color: #1c1b20;
+  position: fixed;
+  right: 2.5em;
+  top: 0.5em;
+}
 #navbar-brand.with-sidebar {
   transform: translate(10em, 3em);
 }
@@ -146,9 +153,46 @@
   display: flex;
   align-items: center;
   transform: rotate(90deg);
-  bottom: 1.2em;
+  bottom: 1.5em;
 }
 #top-toggle svg {
-  transform: rotate(180deg);
-  font-size: 2em;
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+#scroll-prompt {
+  font-size: 0.6em;
+  font-family: "Lato", sans-serif;
+  position: fixed;
+  left: 2.5em;
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg);
+  bottom: 6.5em;
+}
+@keyframes bounce {
+  from {
+    transform: translateX(-3em);
+  }
+  to {
+    transform: translateX(-4em);
+  }
+}
+#scroll-prompt svg {
+  font-size: 1.5em;
+  animation: bounce 800ms ease-in-out infinite alternate;
+}
+#scroll-prompt-top {
+  font-size: 0.6em;
+  font-family: "Lato", sans-serif;
+  color: white;
+  position: fixed;
+  left: 46%;
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg);
+  bottom: 11.5em;
+}
+#scroll-prompt-top svg {
+  font-size: 1.5em;
+  animation: bounce 800ms ease-in-out infinite alternate;
 }

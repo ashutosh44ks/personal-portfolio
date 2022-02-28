@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
+import { GrClose } from "react-icons/gr";
 
 const Sidebar = () => {
   const [toggle, setToggle] = useState("MENU");
@@ -36,8 +37,8 @@ const Sidebar = () => {
   return (
     <div className="sidebar-container sidebar-h">
       <div id="navbar-toggle">
-        <HiMenuAlt3 />
-        {toggle}
+        {toggle==="MENU"?<HiMenuAlt3 />:<GrClose />}
+        {toggle==="MENU"?"MENU":""}
       </div>
       <div id="navbar-menu" className="hide">
         <ul id="navbar-list">

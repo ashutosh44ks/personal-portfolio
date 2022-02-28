@@ -1,3 +1,9 @@
+# My Personal Portfolio Page
+
+A single page react app that aims to showcase my major front-end projects.
+
+______________________________________________________________________________________________________________________________________________________________________________
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -72,6 +72,33 @@ const Projects = () => {
           </div>
         </div>
       </div>
+
+
+      <div className="project">
+        <div className="project-text">
+          <div className="med-text">Website Clone - <span className="span-font"> Google Search Page</span></div>
+          <ul className="sml-text">
+            <li>
+            A searching site used for basic web searching 
+            </li>
+            <li>
+            JavaScript Library used React JS
+            </li>
+            <li>Integrated search bar with Web-Search API</li>
+          </ul>
+          <div className="btn-group">
+            <Button
+              name="Go To Code"
+              site="https://github.com/ashutosh44ks/Recreation-of-1337x-TorrentSite"
+            />
+            <Button
+              name="See Live Project"
+              site="https://ashutosh44ks.github.io/Recreation-of-1337x-TorrentSite/"
+            />
+          </div>
+        </div>
+        <div id="clone-google"></div>
+      </div>
     </section>
   );
 };

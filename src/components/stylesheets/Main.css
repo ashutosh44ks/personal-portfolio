@@ -1,5 +1,5 @@
 @font-face {
-  font-family:"Libre Baskerville";
+  font-family: "Libre Baskerville";
   src: url("./Fonts/LibreBaskerville-Italic.ttf") format("truetype");
 }
 
@@ -9,7 +9,7 @@
 }
 #main {
   background-color: #f8f8f8;
-  height: 580vh;
+  height: 610vh;
 }
 
 .main-pad {
@@ -137,6 +137,14 @@ section {
   background: url("../../media/project-2.gif");
   height: 400px;
   width: 275px;
+}
+#clone-google {
+  background: url("../../media/project-3.png");
+  height: 200px;
+  width: 275px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /*Contact*/

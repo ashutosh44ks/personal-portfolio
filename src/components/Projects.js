@@ -89,11 +89,11 @@ const Projects = () => {
           <div className="btn-group">
             <Button
               name="Go To Code"
-              site="https://github.com/ashutosh44ks/Recreation-of-1337x-TorrentSite"
+              site="https://github.com/ashutosh44ks/google-clone"
             />
             <Button
               name="See Live Project"
-              site="https://ashutosh44ks.github.io/Recreation-of-1337x-TorrentSite/"
+              site="https://ashutosh44ks.github.io/google-clone"
             />
           </div>
         </div>

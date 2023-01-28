@@ -28,7 +28,7 @@ const About = () => {
             <div className="btn-group">
               <Button
                 name="Resume"
-                site="https://drive.google.com/file/d/1rri8vp3pEZH6qAGvs_THgvqvmk_KMv1L/view?usp=sharing"
+                site="https://drive.google.com/file/d/1GFSr3GycgYGdPxeZl8Do9K87eVIOHBFU/view?usp=share_link"
               />
             </div>
           </div>

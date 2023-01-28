@@ -65,7 +65,7 @@ const Sidebar = () => {
           <li className="med-text">
             <a
               className="link side-menu-links"
-              href="https://drive.google.com/file/d/1rri8vp3pEZH6qAGvs_THgvqvmk_KMv1L/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GFSr3GycgYGdPxeZl8Do9K87eVIOHBFU/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
             >
